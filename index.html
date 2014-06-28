@@ -136,7 +136,8 @@ function getProcessingSketchId () { return 'spirographcirblue'; }
       <div class="row">
 
         <div class="col-xs-18 col-sm-6 col-md-3">
-          <div class="thumbnail">
+          <!-- <div class="thumbnail"> -->
+            <div>
 
 				<canvas id="spirographcirblue" data-processing-sources="../blue_spiro/spirograph_cir_blue.pde"
 						width="500" height="300">
@@ -148,9 +149,26 @@ function getProcessingSketchId () { return 'spirographcirblue'; }
 				</noscript>
 
               <div class="caption">
-                <h4>Thumbnail label</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                <p><a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a></p>
+                <h4>Blue Spirograph</h4>
+                <p>Mouse movement changes color of circle spirograph.</p>
+
+            </div>
+
+            <div>
+
+        <canvas id="movingeyes" data-processing-sources="moving_eyes.pde"
+						width="500" height="400">
+					<p>Your browser does not support the canvas tag.</p>
+					<!-- Note: you can put any alternative content here. -->
+				</canvas>
+				<noscript>
+					<p>JavaScript is required to view the contents of this page.</p>
+				</noscript>
+
+              <div class="caption">
+                <h4>Alien with Moving Eyes</h4>
+                <p>The alien watches the mouse movement.</p>
+
             </div>
           </div>
         </div>
